@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Professional Portfolio Design System - Navy Blue Theme
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 217 78% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 217 78% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 217 78% 15%;
+
+    /* Navy blue primary theme */
+    --primary: 217 78% 39%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 217 78% 45%;
+    --primary-dark: 217 78% 33%;
+
+    /* Professional grays */
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 217 78% 15%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 215 14% 52%;
+
+    --accent: 217 78% 95%;
+    --accent-foreground: 217 78% 15%;
+
+    /* Professional text colors */
+    --text-primary: 217 78% 15%;
+    --text-secondary: 215 14% 52%;
+    --text-light: 215 14% 70%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 217 78% 39%;
+
+    --radius: 0.75rem;
+
+    /* Professional gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(217 78% 39%) 0%, hsl(217 78% 45%) 100%);
+    --gradient-section: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(220 14% 98%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(220 14% 99%) 100%);
+
+    /* Professional shadows */
+    --shadow-sm: 0 1px 3px 0 hsl(217 78% 39% / 0.1);
+    --shadow-md: 0 4px 12px 0 hsl(217 78% 39% / 0.12);
+    --shadow-lg: 0 10px 25px 0 hsl(217 78% 39% / 0.15);
+    --shadow-hero: 0 20px 40px 0 hsl(217 78% 39% / 0.2);
+
+    /* Animation variables */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  /* Professional light theme only - dark mode not needed for portfolio */
+  .dark {
+    --background: 217 78% 5%;
+    --foreground: 0 0% 98%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    scroll-behavior: smooth;
+  }
+
+  /* Professional typography */
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-text-primary font-semibold leading-tight;
+  }
+
+  p {
+    @apply text-text-secondary leading-relaxed;
+  }
+}
+
+@layer components {
+  /* Professional section styles */
+  .section-padding {
+    @apply px-6 py-16 md:px-12 lg:px-24;
+  }
+
+  .section-content {
+    @apply max-w-6xl mx-auto;
+  }
+
+  /* Enhanced professional card styles */
+  .professional-card {
+    @apply bg-white rounded-xl border border-border shadow-sm hover:shadow-lg transition-all duration-500 hover:scale-[1.02];
+  }
+
+  /* Enhanced professional buttons */
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary to-primary-light text-primary-foreground hover:from-primary-light hover:to-primary px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg hover:scale-105;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-secondary-foreground border border-border hover:bg-accent px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-md hover:scale-105;
+  }
+
+  /* Enhanced animations */
+  .fade-in-up {
+    @apply opacity-0 translate-y-4 transition-all duration-700 ease-out;
+  }
+
+  .fade-in-up.animate {
+    @apply opacity-100 translate-y-0;
+  }
+
+  /* Enhanced skill tags */
+  .skill-tag {
+    @apply bg-gradient-to-r from-accent to-primary/10 text-accent-foreground px-4 py-2 rounded-full text-sm font-medium border border-border/50 hover:shadow-md hover:scale-105 transition-all duration-300;
+  }
+
+  /* Enhanced hover effects */
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-lg;
+  }
+
+  /* Glowing effects */
+  .glow-on-hover {
+    @apply relative overflow-hidden;
+  }
+
+  .glow-on-hover::before {
+    @apply content-[''] absolute top-0 left-[-100%] w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-all duration-700;
+  }
+
+  .glow-on-hover:hover::before {
+    @apply left-[100%];
+  }
+}
