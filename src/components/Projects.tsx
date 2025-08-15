@@ -223,10 +223,16 @@ export const Projects = () => {
             <p className="text-text-secondary mb-6">
               Check out my GitHub profile for additional projects and contributions
             </p>
+            <a
+            href="https://www.linkedin.com/in/pratik-thapa-9a7399240/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
             <Button className="bg-primary hover:bg-primary-light text-white">
               <Github className="w-4 h-4 mr-2" />
               View GitHub Profile
             </Button>
+            </a>
           </div>
         </div>
       </div>
