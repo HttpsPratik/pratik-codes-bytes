@@ -17,7 +17,7 @@ export const Projects = () => {
       learnings: "Full-stack development, API integration, deployment, user experience design",
       links: {
         live: "https://petsansaar.netlify.app/",
-        github: "#",
+        github: "https://github.com/HttpsPratik/Adoption-Project",
         frontend: "#"
       },
       featured: true
@@ -35,7 +35,7 @@ export const Projects = () => {
       technologies: ["Django", "SQLite", "eSewa API", "Khalti API", "REST Framework"],
       learnings: "Payment processing, session management, security best practices",
       links: {
-        github: "#",
+        github: "https://github.com/HttpsPratik/ecommerce-nepal",
         demo: "#"
       },
       featured: true
@@ -53,7 +53,7 @@ export const Projects = () => {
       technologies: ["FastAPI", "SQLAlchemy", "PostgreSQL", "Docker", "JWT"],
       learnings: "API design, JWT tokens, database relationships, Docker containerization",
       links: {
-        github: "#",
+        github: "https://github.com/HttpsPratik/FastApi-Task-management",
         docs: "#"
       },
       featured: false
