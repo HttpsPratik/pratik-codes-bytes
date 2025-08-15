@@ -18,7 +18,7 @@ export const Projects = () => {
       links: {
         live: "https://petsansaar.netlify.app/",
         github: "https://github.com/HttpsPratik/Adoption-Project",
-        frontend: "#"
+        
       },
       featured: true
     },
@@ -36,7 +36,7 @@ export const Projects = () => {
       learnings: "Payment processing, session management, security best practices",
       links: {
         github: "https://github.com/HttpsPratik/ecommerce-nepal",
-        demo: "#"
+        demo: "https://www.youtube.com/watch?v=O-TVr5cNWXA"
       },
       featured: true
     },
@@ -54,7 +54,7 @@ export const Projects = () => {
       learnings: "API design, JWT tokens, database relationships, Docker containerization",
       links: {
         github: "https://github.com/HttpsPratik/FastApi-Task-management",
-        docs: "#"
+        
       },
       featured: false
     }
