@@ -64,31 +64,55 @@ export const Projects = () => {
     return (
       <div className="flex flex-wrap gap-3">
         {links.live && (
-          <Button size="sm" className="bg-primary hover:bg-primary-light text-white">
+          <Button 
+            size="sm" 
+            className="bg-primary hover:bg-primary-light text-white"
+            onClick={() => window.open(links.live, '_blank')}
+          >
             <ExternalLink className="w-4 h-4 mr-2" />
             Live Demo
           </Button>
         )}
         {links.github && (
-          <Button size="sm" variant="outline" className="border-border hover:bg-secondary">
+          <Button 
+            size="sm" 
+            variant="outline" 
+            className="border-border hover:bg-secondary"
+            onClick={() => window.open(links.github, '_blank')}
+          >
             <Github className="w-4 h-4 mr-2" />
             GitHub
           </Button>
         )}
         {links.docs && (
-          <Button size="sm" variant="outline" className="border-border hover:bg-secondary">
+          <Button 
+            size="sm" 
+            variant="outline" 
+            className="border-border hover:bg-secondary"
+            onClick={() => window.open(links.docs, '_blank')}
+          >
             <FileText className="w-4 h-4 mr-2" />
             API Docs
           </Button>
         )}
         {links.frontend && (
-          <Button size="sm" variant="outline" className="border-border hover:bg-secondary">
+          <Button 
+            size="sm" 
+            variant="outline" 
+            className="border-border hover:bg-secondary"
+            onClick={() => window.open(links.frontend, '_blank')}
+          >
             <Github className="w-4 h-4 mr-2" />
             Frontend
           </Button>
         )}
         {links.demo && (
-          <Button size="sm" variant="outline" className="border-border hover:bg-secondary">
+          <Button 
+            size="sm" 
+            variant="outline" 
+            className="border-border hover:bg-secondary"
+            onClick={() => window.open(links.demo, '_blank')}
+          >
             <Play className="w-4 h-4 mr-2" />
             Demo Video
           </Button>
