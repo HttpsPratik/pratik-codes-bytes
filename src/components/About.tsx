@@ -38,7 +38,7 @@ export const About = () => {
                   </li>
                   <li className="flex items-start">
                     <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Opportunities to work with Django/Python teams
+                    Open to explore other programming languages
                   </li>
                   <li className="flex items-start">
                     <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>

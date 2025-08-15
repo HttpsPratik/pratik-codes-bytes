@@ -4,25 +4,6 @@ import { Button } from "@/components/ui/button";
 export const Projects = () => {
   const projects = [
     {
-      title: "Task Management API",
-      subtitle: "FastAPI • PostgreSQL • JWT Authentication",
-      description: "RESTful API for managing tasks with user authentication, featuring CRUD operations, user registration/login, and advanced task filtering capabilities.",
-      keyFeatures: [
-        "CRUD operations for tasks and users",
-        "JWT-based authentication system",
-        "Advanced filtering and search",
-        "Database relationships and migrations"
-      ],
-      technologies: ["FastAPI", "SQLAlchemy", "PostgreSQL", "Docker", "JWT"],
-      learnings: "API design, JWT tokens, database relationships, Docker containerization",
-      links: {
-        live: "#",
-        github: "#",
-        docs: "#"
-      },
-      featured: true
-    },
-    {
       title: "Pet Adoption Platform",
       subtitle: "Django • React • PostgreSQL",
       description: "Full-stack platform connecting pet shelters with potential adopters in Nepal, featuring comprehensive pet listings and user management.",
@@ -35,7 +16,7 @@ export const Projects = () => {
       technologies: ["Django REST Framework", "React", "PostgreSQL", "Bootstrap"],
       learnings: "Full-stack development, API integration, deployment, user experience design",
       links: {
-        live: "#",
+        live: "https://petsansaar.netlify.app/",
         github: "#",
         frontend: "#"
       },
@@ -57,22 +38,23 @@ export const Projects = () => {
         github: "#",
         demo: "#"
       },
-      featured: false
+      featured: true
     },
     {
-      title: "Learning Management System",
-      subtitle: "Django • Academic Project",
-      description: "Simple LMS for students and teachers with course management, assignment submission, and grade tracking capabilities.",
+      title: "Task Management API",
+      subtitle: "FastAPI • PostgreSQL • JWT Authentication",
+      description: "RESTful API for managing tasks with user authentication, featuring CRUD operations, user registration/login, and advanced task filtering capabilities.",
       keyFeatures: [
-        "Course enrollment system",
-        "Assignment submission and grading",
-        "Student progress tracking",
-        "Teacher dashboard and analytics"
+        "CRUD operations for tasks and users",
+        "JWT-based authentication system",
+        "Advanced filtering and search",
+        "Database relationships and migrations"
       ],
-      technologies: ["Django", "SQLite", "Bootstrap", "JavaScript"],
-      learnings: "Model relationships, Django admin, file uploads, user permissions",
+      technologies: ["FastAPI", "SQLAlchemy", "PostgreSQL", "Docker", "JWT"],
+      learnings: "API design, JWT tokens, database relationships, Docker containerization",
       links: {
-        github: "#"
+        github: "#",
+        docs: "#"
       },
       featured: false
     }
