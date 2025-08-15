@@ -102,20 +102,7 @@ export const Contact = () => {
               </div>
             </div>
 
-            {/* Resume Download */}
-            <div className="professional-card p-8 text-center">
-              <h3 className="text-xl font-semibold text-text-primary mb-4">Resume</h3>
-              <p className="text-text-secondary mb-6">
-                Download my latest resume for detailed information about my experience and skills.
-              </p>
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <span className="text-sm text-text-light">Updated January 2025</span>
-                <Button className="bg-primary hover:bg-primary-light text-white">
-                  <Download className="w-4 h-4 mr-2" />
-                  Download Resume
-                </Button>
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>
