@@ -71,9 +71,6 @@ export const Footer = () => {
             <p className="text-gray-300 text-sm mb-4 md:mb-0">
               © {currentYear} Pratik Thapa. All rights reserved.
             </p>
-            <p className="text-gray-300 text-sm flex items-center">
-              Built with <Heart className="w-4 h-4 mx-1 text-red-500" /> using React & TypeScript
-            </p>
           </div>
         </div>
       </div>
