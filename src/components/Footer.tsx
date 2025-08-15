@@ -48,14 +48,14 @@ export const Footer = () => {
               </a>
               <div className="flex space-x-4 pt-2">
                 <a
-                  href="#"
+                  href="https://github.com/HttpsPratik"
                   className="p-2 bg-white/10 rounded-lg hover:bg-white/20 transition-colors"
                   aria-label="GitHub Profile"
                 >
                   <Github className="w-5 h-5" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/pratik-thapa-9a7399240/"
                   className="p-2 bg-white/10 rounded-lg hover:bg-white/20 transition-colors"
                   aria-label="LinkedIn Profile"
                 >
