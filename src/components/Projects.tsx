@@ -4,6 +4,27 @@ import { Button } from "@/components/ui/button";
 export const Projects = () => {
   const projects = [
     {
+      title: "Digital Wallet API - Complete Backend System",
+      subtitle: "Django REST Framework • PostgreSQL • Redis • JWT",
+      description: "Production-ready digital wallet API demonstrating enterprise-level backend development skills. Handles secure money transfers, QR payments, and comprehensive transaction management with advanced security features.",
+      keyFeatures: [
+        "JWT authentication with refresh token rotation",
+        "Peer-to-peer money transfers with atomic transactions",
+        "QR payment system with expiration handling",
+        "Comprehensive transaction management and audit trail",
+        "Redis caching and rate limiting for performance",
+        "Multi-currency support with configurable fee structure",
+        "Advanced security with IP logging and fraud detection",
+        "Swagger/OpenAPI documentation"
+      ],
+      technologies: ["Django REST Framework", "PostgreSQL", "Redis", "JWT", "Celery", "Docker", "Swagger"],
+      learnings: "Financial API development, race condition prevention, atomic transactions, caching strategies, security best practices, fintech compliance",
+      links: {
+        github: "https://github.com/HttpsPratik/digital-wallet-api",
+      },
+      featured: true
+    },
+    {
       title: "Pet Adoption Platform",
       subtitle: "Django • React • PostgreSQL",
       description: "Full-stack platform connecting pet shelters with potential adopters in Nepal, featuring comprehensive pet listings and user management.",
