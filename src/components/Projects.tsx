@@ -14,7 +14,7 @@ export const Projects = () => {
         "Comprehensive transaction management and audit trail",
         "Local memory caching and rate limiting for performance",
         "Multi-currency support with configurable fee structure",
-        "Advanced security with IP logging and fraud detection",
+        "IP address and device logging for audit trails",
         "Swagger/OpenAPI documentation"
       ],
       technologies: ["Django REST Framework", "SQLite", "Local Memory Caching", "JWT", "Docker-ready", "Swagger"],
