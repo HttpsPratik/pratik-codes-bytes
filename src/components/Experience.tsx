@@ -35,10 +35,10 @@ export const Experience = () => {
   ];
 
   const education = {
-    degree: "Bachelor of Computer Science",
+    degree: "Bachelor in Computer Application (BCA)",
     institution: "Tribhuvan University",
     location: "Nepal",
-    period: "2021 - Present",
+    period: "2019 - 2025",
     status: "Ongoing",
     coursework: [
       "Data Structures & Algorithms",
