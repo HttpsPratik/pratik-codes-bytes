@@ -20,7 +20,7 @@ export const Projects = () => {
       technologies: ["Django REST Framework", "SQLite", "Local Memory Caching", "JWT", "Docker-ready", "Swagger"],
       learnings: "Financial API development, race condition prevention, atomic transactions, caching strategies, security best practices, fintech compliance",
       links: {
-        github: "https://github.com/HttpsPratik/digital-wallet-api",
+        github: "https://github.com/HttpsPratik/Digital-Wallet-Api",
       },
       featured: true
     },
