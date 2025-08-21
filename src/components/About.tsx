@@ -18,9 +18,11 @@ export const About = () => {
           <div className="space-y-8">
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-text-secondary leading-relaxed">
-                I'm Pratik Thapa, a Computer Science student and aspiring backend developer with 
-                practical experience gained through internships at tech companies in Nepal. I enjoy 
-                solving problems through code and building applications that make a difference.
+                Hi, I'm Pratik 👋<br />
+                <span className="font-semibold text-text-primary">Backend Developer | Building Modern APIs</span><br />
+                I'm a developer passionate about backend systems and modern technologies. I enjoy 
+                building secure APIs, working with databases, and exploring cutting-edge tools like 
+                Bun.js and emerging frameworks.
               </p>
             </div>
 
@@ -29,20 +31,20 @@ export const About = () => {
               <div className="professional-card p-8 hover-lift border-l-4 border-l-primary bg-gradient-to-br from-white to-primary/5">
                 <h3 className="text-xl font-semibold text-text-primary mb-4 flex items-center">
                   <div className="w-3 h-3 bg-gradient-to-r from-primary to-primary-light rounded-full mr-3 animate-pulse"></div>
-                  What I'm Looking For
+                  Currently Seeking
                 </h3>
                 <ul className="space-y-3 text-text-secondary">
                   <li className="flex items-start">
                     <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Junior Backend Developer position
+                    Backend developer opportunities
                   </li>
                   <li className="flex items-start">
                     <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Open to explore other programming languages
+                    Building scalable web applications
                   </li>
                   <li className="flex items-start">
                     <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Collaborative environment where I can learn and grow
+                    Collaborative environment where I can contribute and grow
                   </li>
                 </ul>
               </div>
