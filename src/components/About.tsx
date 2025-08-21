@@ -36,15 +36,19 @@ export const About = () => {
                 <ul className="space-y-3 text-text-secondary">
                   <li className="flex items-start">
                     <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Backend developer opportunities
+                    Junior backend developer positions
                   </li>
                   <li className="flex items-start">
                     <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Building scalable web applications
+                    Open to new roles and environments to expand my skills
                   </li>
                   <li className="flex items-start">
                     <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Collaborative environment where I can contribute and grow
+                    Willing to learn other languages or frameworks as needed
+                  </li>
+                  <li className="flex items-start">
+                    <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                    Opportunities involving API development and database design
                   </li>
                 </ul>
               </div>
@@ -58,19 +62,19 @@ export const About = () => {
                 <ul className="space-y-3 text-text-secondary">
                   <li className="flex items-start">
                     <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Write clean, readable code
+                    Build with modern, performance-focused technologies
                   </li>
                   <li className="flex items-start">
                     <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Focus on learning new technologies
+                    Prioritize security and proper authentication patterns
                   </li>
                   <li className="flex items-start">
                     <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Collaborate effectively with team members
+                    Write clean, maintainable code with comprehensive error handling
                   </li>
                   <li className="flex items-start">
                     <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Always eager to take on new challenges
+                    Learn by building production-ready projects from scratch
                   </li>
                 </ul>
               </div>
