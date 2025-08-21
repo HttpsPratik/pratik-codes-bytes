@@ -25,6 +25,27 @@ export const Projects = () => {
       featured: true
     },
     {
+      title: "Blog API - Modern Backend System",
+      subtitle: "Bun.js • Elysia.js • PostgreSQL • JWT • TypeScript",
+      description: "Production-ready blog API showcasing modern JavaScript backend development with cutting-edge runtime and framework. Built with developer-focused technologies while maintaining enterprise-grade security patterns.",
+      keyFeatures: [
+        "JWT authentication with secure password hashing",
+        "Complete CRUD operations for blog posts and comments",
+        "User authorization ensuring authors can only edit their own content",
+        "Full-text search functionality across posts",
+        "Real-time comment system with user associations",
+        "Auto-generated Swagger/OpenAPI documentation",
+        "TypeScript schema validation and error handling",
+        "Database relationships with foreign key constraints"
+      ],
+      technologies: ["Bun.js Runtime", "Elysia.js Framework", "PostgreSQL", "JWT", "bcrypt", "TypeScript", "Swagger"],
+      learnings: "Modern JavaScript runtimes, API security patterns, database relationships, middleware architecture, authentication vs authorization, TypeScript in production",
+      links: {
+        github: "https://github.com/HttpsPratik/blog-miniproject-BunJs-Elysia-Postgres.git",
+      },
+      featured: true
+    },
+    {
       title: "Pet Adoption Platform",
       subtitle: "Django • React • PostgreSQL",
       description: "Full-stack platform connecting pet shelters with potential adopters in Nepal, featuring comprehensive pet listings and user management.",
