@@ -18,17 +18,17 @@ export const Experience = () => {
       skills: ["AWS", "AI/ML", "Cloud Computing", "Data Science", "Python"]
     },
     {
-      title: "Back End Developer, Social Media Marketing",
+      title: "Back End Developer, Social Media Head",
       company: "Freelance",
       location: "Remote",
-      period: "2024 - Present",
+      period: "April 2024 - August 2025",
       type: "Freelance",
       achievements: [
         "Developed scalable backend APIs using modern frameworks",
         "Implemented social media marketing automation tools",
         "Built secure authentication and authorization systems",
         "Created comprehensive API documentation with Swagger",
-        "Integrated multiple databases and ORM solutions"
+        "Used social media to generate millions of profit to company"
       ],
       skills: ["API Development", "Django", "Docker", "FastAPI", "PostgreSQL", "Python", "React.js", "SQLAlchemy", "Swagger", "TypeScript", "Social Media Marketing"]
     },
