@@ -21,63 +21,8 @@ export const About = () => {
                 Hi, I'm Pratik 👋<br />
                 <span className="font-semibold text-text-primary">Backend Developer | Building Modern APIs</span><br />
                 I'm a developer passionate about backend systems and modern technologies. I enjoy 
-                building secure APIs, working with databases, and exploring cutting-edge tools like 
-                Bun.js and emerging frameworks.
+                building secure APIs, working with databases, and exploring AWS, AI & ML.
               </p>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-8">
-              {/* What I'm Looking For */}
-              <div className="professional-card p-8 hover-lift border-l-4 border-l-primary bg-gradient-to-br from-white to-primary/5">
-                <h3 className="text-xl font-semibold text-text-primary mb-4 flex items-center">
-                  <div className="w-3 h-3 bg-gradient-to-r from-primary to-primary-light rounded-full mr-3 animate-pulse"></div>
-                  Currently Seeking
-                </h3>
-                <ul className="space-y-3 text-text-secondary">
-                  <li className="flex items-start">
-                    <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Junior backend developer positions
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Open to new roles and environments to expand my skills
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Willing to learn other languages or frameworks as needed
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Opportunities involving API development and database design
-                  </li>
-                </ul>
-              </div>
-
-              {/* My Approach */}
-              <div className="professional-card p-8 hover-lift border-l-4 border-l-primary-light bg-gradient-to-br from-white to-primary-light/5">
-                <h3 className="text-xl font-semibold text-text-primary mb-4 flex items-center">
-                  <div className="w-3 h-3 bg-gradient-to-r from-primary-light to-primary rounded-full mr-3 animate-pulse"></div>
-                  My Approach
-                </h3>
-                <ul className="space-y-3 text-text-secondary">
-                  <li className="flex items-start">
-                    <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Build with modern, performance-focused technologies
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Prioritize security and proper authentication patterns
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Write clean, maintainable code with comprehensive error handling
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-1.5 h-1.5 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Learn by building production-ready projects from scratch
-                  </li>
-                </ul>
-              </div>
             </div>
 
             {/* Currently Learning */}
