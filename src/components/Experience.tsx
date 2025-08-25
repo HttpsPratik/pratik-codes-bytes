@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 export const Experience = () => {
   const experiences = [
     {
-      title: "Jr. AWS, AI & ML",
+      title: "Jr. Cloud (AWS) & AI/ML",
       company: "Drop",
       location: "On Site",
       period: "Mar 2025 - Present",
