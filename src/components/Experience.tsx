@@ -4,6 +4,35 @@ import { Button } from "@/components/ui/button";
 export const Experience = () => {
   const experiences = [
     {
+      title: "Jr. AWS, AI & ML",
+      company: "Drop company",
+      location: "On Site",
+      period: "Mar 2025 - Present",
+      type: "Full-time",
+      achievements: [
+        "Working on AWS cloud infrastructure and AI/ML solutions",
+        "Implementing machine learning models and data pipelines",
+        "Collaborating on AI-driven product development",
+        "Managing cloud resources and deployment strategies"
+      ],
+      skills: ["AWS", "AI/ML", "Cloud Computing", "Data Science", "Python"]
+    },
+    {
+      title: "Back End Developer, Social Media Marketing",
+      company: "Freelance",
+      location: "Remote",
+      period: "2024 - Present",
+      type: "Freelance",
+      achievements: [
+        "Developed scalable backend APIs using modern frameworks",
+        "Implemented social media marketing automation tools",
+        "Built secure authentication and authorization systems",
+        "Created comprehensive API documentation with Swagger",
+        "Integrated multiple databases and ORM solutions"
+      ],
+      skills: ["API Development", "Django", "Docker", "FastAPI", "PostgreSQL", "Python", "React.js", "SQLAlchemy", "Swagger", "TypeScript", "Social Media Marketing"]
+    },
+    {
       title: "Django Backend Developer Intern",
       company: "Truenary Solutions",
       location: "Nepal",
