@@ -33,6 +33,8 @@ export const About = () => {
               </h3>
               <div className="flex flex-wrap gap-3">
                 {[
+                  'AWS',
+                  'AI & ML',
                   'Advanced Django patterns',
                   'Database optimization',
                   'Test-driven development',
