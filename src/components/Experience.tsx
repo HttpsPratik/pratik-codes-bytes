@@ -86,7 +86,7 @@ export const Experience = () => {
         institution: "Stanford University",
         platform: "Coursera",
         date: "Aug 29, 2025",
-        credentialUrl: "https://coursera.org/verify/specialization/KVF8PJMQOD7X",
+        credentialUrl: "https://www.coursera.org/account/accomplishments/specialization/KVF8PJMOOD7X",
         imageUrl: "/lovable-uploads/20c39ec6-d59e-4149-b22b-dfa1f643ea59.png"
       },
       {
@@ -94,7 +94,7 @@ export const Experience = () => {
         institution: "Stanford University",
         platform: "Coursera",
         date: "Aug 29, 2025",
-        credentialUrl: "https://coursera.org/verify/VQTCXFAFMOUV",
+        credentialUrl: "https://www.coursera.org/account/accomplishments/verify/VQTCXFAFMOUV",
         imageUrl: "/lovable-uploads/728cc5f8-c918-41f7-a300-8a666870c4a1.png"
       },
       {
@@ -102,7 +102,7 @@ export const Experience = () => {
         institution: "Stanford University",
         platform: "Coursera",
         date: "Aug 27, 2025",
-        credentialUrl: "https://coursera.org/verify/FAZZI8CN9PQ3",
+        credentialUrl: "https://www.coursera.org/account/accomplishments/verify/FAZZI8CN9PQ3",
         imageUrl: "/lovable-uploads/bba8a9b3-901c-49fb-9f99-48ab132da433.png"
       },
       {
@@ -110,7 +110,7 @@ export const Experience = () => {
         institution: "Stanford University",
         platform: "Coursera",
         date: "Aug 29, 2025",
-        credentialUrl: "https://coursera.org/verify/HISW3IOGI6GE",
+        credentialUrl: "https://www.coursera.org/account/accomplishments/verify/HISW3IO0I6GE",
         imageUrl: "/lovable-uploads/307f4bec-dd9d-4a38-94d9-8828157c315d.png"
       }
     ],
