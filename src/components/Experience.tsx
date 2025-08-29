@@ -82,6 +82,14 @@ export const Experience = () => {
   const certificateCategories = {
     "AI/ML": [
       {
+        title: "Machine Learning Specialization",
+        institution: "Stanford University",
+        platform: "Coursera",
+        date: "Aug 29, 2025",
+        credentialUrl: "https://coursera.org/verify/specialization/KVF8PJMQOD7X",
+        imageUrl: "/lovable-uploads/20c39ec6-d59e-4149-b22b-dfa1f643ea59.png"
+      },
+      {
         title: "Advanced Learning Algorithms",
         institution: "Stanford University",
         platform: "Coursera",
